@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Activity | Intro to CS POGIL</title><!-- responsive meta -->
+	<title>Home | Intro to CS POGIL</title><!-- responsive meta -->
 	<meta content="width=device-width, initial-scale=1" name="viewport"><!-- For IE -->
 	<meta content="IE=edge" http-equiv="X-UA-Compatible"><!-- master stylesheet -->
 	<link href="css/style.css" rel="stylesheet"><!-- Responsive stylesheet -->
 	<link href="css/responsive.css" rel="stylesheet"><!--Color Switcher Mockup-->
 	<link href="css/color-switcher-design.css" rel="stylesheet"><!--Color Themes-->
 	<link href="css/color-themes/default-theme.css" id="theme-color-file" rel="stylesheet"><!-- Favicon -->
+	<link href="css/owl.css" rel="stylesheet"><!--Owl Carousel-->
+	<link href="css/owl.theme.defaul.css" rel="stylesheet"><!--default Owl Carousel Theme-->
 	<link href="images/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
 	<link href="images/favicon/logo.png" rel="icon" sizes="32x32" type="image/png">
 	<link href="images/favicon/logo.png" rel="icon" sizes="16x16" type="image/png"><!-- Fixing Internet Explorer-->
@@ -19,7 +21,6 @@
 </head>
 <body>
 	<div class="boxed_wrapper">
-		<!--End header area-->
 		<header class="header-area style-three stricky">
 			<div class="container">
 				<div class="row">
@@ -44,8 +45,8 @@
 									</div>
 									<div class="navbar-collapse collapse clearfix">
 										<ul class="navigation clearfix">
-											<li>
-												<a href="index.html">Home</a>
+											<li class="current">
+												<a href="homepage-template.html">Home</a>
 											</li>
 											<li>
 												<a href="about.html">About</a>
@@ -56,7 +57,7 @@
 											<li>
 												<a href="resources.html">Resources</a>
 											</li>
-											<li class="current">
+											<li>
 												<a href="activity.html">Activity</a>
 											</li>
 											<li>
@@ -80,6 +81,7 @@
 		</header>
 		<!--End header area-->
 		<!--Start breadcrumb area-->
+		<!--
 		<section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.jpg);">
 			<div class="container">
 				<div class="row">
@@ -89,11 +91,9 @@
 								<li>
 									<a href="index.html">Home</a>
 								</li>
-								<li>
-									<i aria-hidden="true" class="fa fa-angle-right"></i>
-								</li>
+								<li><i aria-hidden="true" class="fa fa-angle-right"></i></li>
 								<li class="active">
-									<a href="activity.html">Activity</a>
+									<a href="homepage-template.html">Home</a>
 								</li>
 							</ul>
 						</div>
@@ -101,52 +101,36 @@
 				</div>
 			</div>
 		</section>
+		-->
 		<section>
 			<div class="container">
-				<div class="member-details-area">
-					<div class="col-xl-12">
-                <div class="who-weare-content">
-                    <div class="sec-title">
-                        <div class="title left">Why get involved?</div>
-                        <div class="dector thm-bg-clr"></div>
-                    </div>
-                    <div class="text-holder">
-                        <h3>This is a sample text header if we want to use something here.</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                </div>
-            </div>
-				</div>
-				<section>
-					<div class="sec-title">
-							<div class="title left">Sample Activities</div>
-							<div class="dector thm-bg-clr"></div>
-					</div>
-					<div class="row">
-						<div class="col-xl-12">
-								<div class="landscape-steps">
-										<ul>
-												<li>
-														<a class="btn-one thm-bg-clr" href="#">Plugged Java</a>
-												</li>
-												<li>
-														<a class="btn-one thm-bg-clr" href="#">Unplugged Java</a>
-												</li>
-												<li>
-														<a class="btn-one thm-bg-clr" href="#">Python</a>
-												</li>
-										</ul>
-								</div>
-							</div>
+				<div class="slideshow">
+					<div class="owl-carousel owl-theme">
+						<div class="item">
+							<img src="images/slides/1.jpg" alt="placeholder"/>
 						</div>
-				</section>
-				<section>
-					<div class="sec-title">
-							<div class="title left">Request access</div>
-							<div class="dector thm-bg-clr"></div>
+						<div class="item">
+							<img src="images/slides/2.jpg" alt="placeholder"/>
+						</div>
+						<div class="item">
+							<img src="images/slides/3.jpg" alt="placeholder"/>
+						</div>
 					</div>
-					<p>If you would like access to these activities, please email <a href="mailto:hhu@westminstercollege.edu" target="_top">Dr. Helen Hu</a> with your preferred Google Drive account and indicate that you are requesting access to the Java CS1 activities.</p>
-				</section>
+				</div>
+
+				<div class="about-section">
+					<div class="sec-title">
+						<div class="title left">
+							About CSPogil
+						</div>
+						<div class="dector thm-bg-clr"></div>
+					</div>
+					<div class="text-holder">
+						<p>
+							The main goal of IntroCS POGIL is to study factors that most influence faculty to adopt POGIL in introductory computer science courses and how the degree of POGIL implementation impacts student learning and engagement. A secondary goal is to make it significantly easier for computer science faculty to adopt POGIL by disseminating high-quality instructional resources and enhancing current professional development practices. The project theory of action is that enhanced instructor support will improve faculty adoption of and persistence with POGIL, which in turn will improve student outcomes. To assess the impact of these and other factors, the project will collect and analyze multi-institutional data including surveys, interviews, and grades.
+						</p>
+					</div>
+				</div>
 			</div>
 		</section>
 	</div>
@@ -239,5 +223,6 @@
 	</script>
 	<script src="js/custom.js">
 	</script>
+	<script src="js/homepage.js"></script>
 </body>
 </html>

@@ -7,7 +7,16 @@
     
 }
 
-
+@media only screen and (max-width: 992px)  {
+    /*** 
+    =============================================
+        Member Details Area  style
+    =============================================
+    ***/ 
+    .member-details-area{
+        padding-top: 0;
+    }
+}
 
 
 /* Medium screen  */ 
@@ -1445,6 +1454,7 @@
     margin-top: 50px;
 }
 
+
 /*** 
 =============================================
     Land Scape Area style
@@ -1880,7 +1890,7 @@
 }      
 .who-weare-content {
     display: block;
-    margin-top: 80px;
+    margin-top: 50px;
 } 
       
     
@@ -1979,8 +1989,8 @@
 =============================================
 ***/
 .breadcrumb-area {
-    padding-top: 74px;
-    padding-bottom: 68px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }  
 .breadcrumb-area .title {
     margin: 0;
@@ -2331,7 +2341,7 @@
     z-index: 12;
 }    
 .main-menu .navbar-header .navbar-toggle {
-    background: #1d1d1d;
+    background: #224d8f;
     border: 1px dashed #1d1d1d;
     display: inline-block;
     border-radius: 3px;
@@ -2449,7 +2459,6 @@
     display: none;
 }
    
-.main-menu .navbar-collapse > .navigation > li > a:hover,
 .main-menu .navbar-collapse > .navigation > li > a:active,
 .main-menu .navbar-collapse > .navigation > li > a:focus{ } 
 .main-menu .navbar-collapse > .navigation > li:hover > a,
@@ -2459,6 +2468,12 @@
     color: #ffffff !important;
     border: none;
 }        
+
+.main-menu .navbar-collapse > .navigation > li > a:hover,
+.current > a {
+    background: #224D8F!important;
+}
+
 .main-menu .navbar-collapse > .navigation li.dropdown .dropdown-btn{
     display:block;
 }
