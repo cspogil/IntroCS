@@ -1,4 +1,9 @@
 {
+	"_comment":[
+			"To create a new event, the syntax must be exact or JSON will throw a fit",
+			"Put the event in the array of events below, just copy and paste one of the previous events (brackets too).",
+			"Every event NEEDS a title, link, and date. Any extraneous data will not be used."
+		   ],
 	"events":[
 		{
 			"title":"Event 1",
