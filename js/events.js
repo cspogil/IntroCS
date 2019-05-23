@@ -16,6 +16,13 @@
  * For computers with PHP 5.4.0 or higher:
  * 	php -S localhost:8000
  * 	navigate to localhost:8000 to access hosted site
+ *
+ *
+ * To find out which of these, if any you have access to, enter the following commands:
+ * 	python --version
+ *  php -v
+ *
+ *  If either of these work, it will output a version number for reference.
  * 
  * Author: Jake Wagoner
  */
