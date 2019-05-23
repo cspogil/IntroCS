@@ -3,19 +3,19 @@
 			"To create a new event, the syntax must be exact or JSON will throw a fit",
 			"Put the event in the array of events below, just copy and paste one of the previous events (brackets too).",
 			"Every event NEEDS a title, link, and date. Any extraneous data will not be used.",
-			"Visit here for a JSON syntax guide: https://www.tutorialspoint.com/json/json_quick_guide.htm",
-		   ],
+			"Visit here for a JSON syntax guide: https://www.tutorialspoint.com/json/json_quick_guide.htm"
+		],
 	"events":[
 		{
 			"title":"Event 1",
 			"link":"google.com",
-			"date":"12/1/19-12/12/19",
+			"date":"12/1/19-12/12/19"
 		},
 
 		{
 			"title":"Event 2",
 			"link":"google.com",
-			"date":"12/1/19-12/13/19",
+			"date":"12/1/19-12/13/19"
 		},
 
 		{

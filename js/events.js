@@ -56,5 +56,8 @@ $(document).ready(function() {
 	 */
 	$.getJSON("../eventList.json",function(json) {
 			generateEvents(json.events);
+	}).fail(function( jqxhr, textStatus, error ) {
+    	var err = textStatus + ", " + error;
+    	console.log( "JSON fetch request Failed: " + err );
 	});
 });
