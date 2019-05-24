@@ -8577,6 +8577,11 @@ box-shadow: 0px 3px 10px #f5f5f5;
  */
 
 
+hr {
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+
 
 /** 
  * Owl Carousel Styling
