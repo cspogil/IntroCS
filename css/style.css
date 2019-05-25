@@ -8631,3 +8631,11 @@ hr {
         width: 90%;
     }
 }
+
+/**
+ *  Project Team
+ */
+
+.member-container {
+    height: 200px;
+}
