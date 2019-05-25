@@ -54,7 +54,7 @@ $(document).ready(function() {
 	 *
 	 * Passes the object to generateEvents()
 	 */
-	$.getJSON("../eventList.json",function(json) {
+	$.getJSON("https://www.jakewagoner.us/IntroCS/eventList.json",function(json) {
 			generateEvents(json.events);
 	}).fail(function( jqxhr, textStatus, error ) {
     	var err = textStatus + ", " + error;
