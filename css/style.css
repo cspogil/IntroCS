@@ -76,6 +76,9 @@
 /*** Prettyphoto css ***/
 @import url('prettyPhoto.css');
 
+/*** Custom CSS ***/
+@import url('custom.css');
+
 
 
 
@@ -8570,72 +8573,9 @@ box-shadow: 0px 3px 10px #f5f5f5;
 }
 
 
-
-
 /** 
- * Jake added this CSS
+ * Jake added all custom css in "custom.css"
  */
 
 
-hr {
-    margin-top:2rem;
-    margin-bottom:2rem;
-}
 
-
-/** 
- * Owl Carousel Styling
- */
-
-.slideshow {
-    margin:auto;
-}
-
-
-/**
- * Footer content
- */
-.thm-clr {
-    transition: 0.25s color;
-    color: #FFB300;
-}
-
-.thm-clr:hover {
-    color: #ffffff;
-}
-
-
-.sec-title {
-    position: relative;
-    margin-top: 10px !important;
-    padding-bottom: 50px;
-}
-
-/**
- *  Events page
- */
-.key-benefits-service .single-box {
-    width: 30%;
-    display: inline-block;
-    padding-left: 10px;
-}
-
-@media only screen and (max-width: 1200px) {
-    .key-benefits-service .single-box {
-        width: 45%;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .key-benefits-service .single-box {
-        width: 90%;
-    }
-}
-
-/**
- *  Project Team
- */
-
-.member-container {
-    height: 200px;
-}
