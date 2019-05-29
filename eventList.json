@@ -2,48 +2,63 @@
 	"_comment":[
 			"To create a new event, the syntax must be exact or JSON will throw a fit",
 			"Put the event in the array of events below, just copy and paste one of the previous events (brackets too).",
-			"Every event NEEDS a title, link, and date. Any extraneous data will not be used.",
+			"Every event NEEDS a title, image local file path, description, link, and date. Any extraneous data will not be used.",
+			"For the IMAGE path: put the image in 'images/eventIcons' and simply put the filename in this file.",
 			"Visit here for a JSON syntax guide: https://www.tutorialspoint.com/json/json_quick_guide.htm"
 		],
 	"events":[
 		{
 			"title":"Event 1",
+			"description":"This is an example of a description for an event. Try and keep it short.",
+			"image":"POGIL.png",
 			"link":"google.com",
 			"date":"12/1/19-12/12/19"
 		},
 
 		{
 			"title":"Event 2",
+			"description":"This is an example of a description for an event. Try and keep it short.",
+			"image":"POGIL.png",
 			"link":"google.com",
 			"date":"12/1/19-12/13/19"
 		},
 
 		{
 			"title":"Event 3",
+			"description":"This is an example of a description for an event. Try and keep it short.",
+			"image":"POGIL.png",
 			"link":"google.com",
 			"date":"12/1/19-12/14/19"
 		},
 
 		{
 			"title":"Event 4",
+			"description":"This is an example of a description for an event. Try and keep it short.",
+			"image":"POGIL.png",
 			"link":"google.com",
 			"date":"12/1/19-12/15/19"
 		},
 
 		{
 			"title":"Event 5",
+			"description":"This is an example of a description for an event. Try and keep it short.",
+			"image":"POGIL.png",
 			"link":"google.com",
 			"date":"12/1/19-12/16/19"
 		},
 
 		{
 			"title":"Event 6",
+			"description":"This is an example of a description for an event. Try and keep it short.",
+			"image":"POGIL.png",
 			"link":"google.com",
 			"date":"12/1/19-12/17/19"
 		},
 
 		{
 			"title":"Event 7",
+			"description":"This is an example of a description for an event. Try and keep it short.",
+			"image":"POGIL.png",
 			"link":"google.com",
 			"date":"12/1/19-12/18/19"
 		}

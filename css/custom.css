@@ -1,0 +1,127 @@
+
+
+hr {
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+
+
+/** 
+ * Owl Carousel Styling
+ */
+
+.slideshow {
+    margin:auto;
+}
+
+
+/**
+ * Footer content
+ */
+.thm-clr {
+    transition: 0.25s color;
+    color: #FFB300;
+}
+
+.thm-clr:hover {
+    color: #ffffff;
+}
+
+
+.sec-title {
+    position: relative;
+    margin-top: 10px !important;
+    padding-bottom: 50px;
+}
+
+/**
+ *  Events page
+ */
+.key-benefits-service .single-box {
+    width: 100%;
+    padding-left: 10px;
+    border: 1px solid #333;
+}
+
+.key-benefits-service .single-box .text-holder {
+    border: none !important;
+    text-align: left;
+    padding: 0 0 5px 0 !important;
+}
+
+.key-benefits-service .single-box .image-holder {
+    margin: 5px auto !important;
+    max-height: 180.25px;
+    max-width: 180.25px;
+}
+
+.key-benefits-content .single-box:hover .text-holder h3 a {
+    color: #222222!important;
+}
+
+.flex-stretch {
+    align-self: stretch;
+    flex: auto;
+}
+
+.grid-col-1 {
+    grid-column: 1;
+}
+
+.grid-col-2 {
+    grid-column: 2;
+}
+
+.grid-col-1-to-2 {
+    grid-column: 1 / span 2;
+}
+
+.grid-row-1 {
+    grid-row: 1;
+}
+
+.grid-row-2 {
+    grid-row: 2;
+}
+
+.grid-row-3 {
+    grid-row: 3;
+}
+
+.btns-box.grid-row-3 {
+    align-self: start;
+}
+
+.flex {
+    display: flex !important;
+}
+
+@media only screen and (min-width: 575px) {
+    .key-benefits-service .single-box {
+        display: flex !important;
+        align-items: center;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 25% 50% 25%;
+    }
+
+    .key-benefits-service .single-box .image-holder {
+        margin: 5px 5px 5px 0 !important;
+    }
+
+    .date {
+        text-align: right !important;
+        margin-right: 5px !important;
+    }
+}
+
+/**
+ *  Project Team
+ */
+
+.member-container {
+    height: 200px;
+}

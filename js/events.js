@@ -37,11 +37,21 @@ $(document).ready(function() {
 		for (let i = 0; i < eventList.length; i++) {
 			$("#events").append(
 				"<div class='single-box'>" +
-					"<div class='text-holder'>" +
-						"<h3><a href=" + eventList[i].link + "target='_blank'>"+ eventList[i].title +"</a></h3>" +
-						"<p>Date: " + eventList[i].date + "</p>" +
-						"<div class='btns-box'>" +
-							"<a href=" + eventList[i].link + " class='btn-one thm-bg-clr' target='_blank'>Learn more</a>" +
+					"<div class='image-holder'>" +
+						"<img src='../images/eventIcons/" + eventList[i].image + "'/>" +
+					"</div>" +
+					"<div class='grid flex-stretch'>" +
+						"<div class='text-holder grid-col-1 grid-row-1'>" +
+							"<h3><a href=" + eventList[i].link + "target='_blank'>"+ eventList[i].title +"</a></h3>" +
+						"</div>" +
+						"<div class='text-holder date grid-col-2 grid-row-1'>" +
+							"<p>" + eventList[i].date + "</p>" +
+						"</div>" +
+						"<div class='grid-col-1-to-2 grid-row-2 text-holder'>" +
+							"<p class='event-text'>" + eventList[i].description + "</p>" +
+						"</div>" +
+						"<div class='btns-box flex grid-col-3 grid-row-3'>" +
+							"<a href=" + eventList[i].link + " target='_blank'>Learn more</a>" +
 						"</div>" +
 					"</div>" +
 				"</div>"
@@ -54,7 +64,7 @@ $(document).ready(function() {
 	 *
 	 * Passes the object to generateEvents()
 	 */
-	$.getJSON("https://www.jakewagoner.us/IntroCS/eventList.json",function(json) {
+	$.getJSON("../eventList.json",function(json) {
 			generateEvents(json.events);
 	}).fail(function( jqxhr, textStatus, error ) {
     	var err = textStatus + ", " + error;
