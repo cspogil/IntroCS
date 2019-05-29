@@ -111,6 +111,11 @@ hr {
     .key-benefits-service .single-box .image-holder {
         margin: 5px 5px 5px 0 !important;
     }
+
+    .date {
+        text-align: right !important;
+        margin-right: 5px !important;
+    }
 }
 
 /**

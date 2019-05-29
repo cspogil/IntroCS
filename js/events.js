@@ -44,7 +44,7 @@ $(document).ready(function() {
 						"<div class='text-holder grid-col-1 grid-row-1'>" +
 							"<h3><a href=" + eventList[i].link + "target='_blank'>"+ eventList[i].title +"</a></h3>" +
 						"</div>" +
-						"<div class='text-holder grid-col-2 grid-row-1'>" +
+						"<div class='text-holder date grid-col-2 grid-row-1'>" +
 							"<p>" + eventList[i].date + "</p>" +
 						"</div>" +
 						"<div class='grid-col-1-to-2 grid-row-2 text-holder'>" +
