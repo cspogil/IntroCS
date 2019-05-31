@@ -63,6 +63,9 @@ $(document).ready(function() {
 	 * Retrieves and parses the JSON file "eventList.json"
 	 *
 	 * Passes the object to generateEvents()
+	 *
+	 * TODO:
+	 * 	Figure out why eventList.json is attempting to be loaded from www.jakewagoner.us/eventList.json rather than proper directory
 	 */
 	$.getJSON("../eventList.json",function(json) {
 			generateEvents(json.events);
