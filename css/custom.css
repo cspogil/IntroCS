@@ -14,6 +14,11 @@ hr {
     margin:auto;
 }
 
+.item img {
+    max-width: 100%;
+    max-height: 500px;
+}
+
 
 /**
  * Footer content
@@ -134,38 +139,48 @@ hr {
  *  Project Team
  */
 
-.member-container {
-    height: 200px;
+@media only screen and (min-width: 766px) {
+   .member-container {
+        height: 220px;
+    }
+}
+
+.member-details {
+    font-size: 18px !important;
+}
+
+.board-members, .board-members li {
+    list-style: circle !important;
 }
 
 /**
  * Get Involved
  */
-.landscape-steps ul {
+.get-involved ul {
     display: block!important;
     padding-bottom: 10px;
 }
 
-.landscape-steps ul li {
+.get-involved ul li {
     -webkit-box-shadow: 6px 6px 7px 0px rgba(143,143,143,1);
     -moz-box-shadow: 6px 6px 7px 0px rgba(143,143,143,1);
     box-shadow: 6px 6px 7px 0px rgba(143,143,143,1);
     transition: 200ms linear;
 }
 
-.landscape-steps ul li:hover {
+.get-involved ul li:hover {
     -webkit-box-shadow: 6px 6px 12px 0px rgba(143,143,143,1);
     -moz-box-shadow: 6px 6px 12px 0px rgba(143,143,143,1);
     box-shadow: 6px 6px 12px 0px rgba(143,143,143,1);
 }
 
 @media only screen and (min-width: 767px) {
-    .landscape-steps ul {
+    .get-involved ul {
         display: flex!important;
         justify-content: space-around;
     }
 
-    .landscape-steps ul li {
+    .get-involved ul li {
         max-width: 390px !important;
         border: 1px solid #e6e6e6 !important;
         padding: 30px 28px !important;
@@ -174,7 +189,36 @@ hr {
 }
 
 @media only screen and (max-width: 991px) {
-    .landscape-steps ul li {
+    .get-involved ul li {
         max-width: 310px !important;
     }
 }
+
+/**
+ * Homepage
+ */
+.learning-cycle {
+    float:right;
+    width: 40% !important;
+}
+
+@media only screen and (max-width: 991px) {
+    .learning-cycle {
+        width: 50% !important;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .learning-cycle {
+        width: 100% !important;
+        float: none !important;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
