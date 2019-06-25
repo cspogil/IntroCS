@@ -6,12 +6,17 @@ hr {
 }
 
 
-/** 
+/**
  * Owl Carousel Styling
  */
 
 .slideshow {
     margin:auto;
+}
+
+.item img {
+    max-width: 100%;
+    max-height: 500px;
 }
 
 
@@ -40,7 +45,19 @@ hr {
 .key-benefits-service .single-box {
     width: 100%;
     padding-left: 10px;
-    border: 1px solid #333;
+    border: 1px solid #e6e6e6;
+    -webkit-box-shadow: 6px 6px 7px 0px rgba(143,143,143,1);
+    -moz-box-shadow: 6px 6px 7px 0px rgba(143,143,143,1);
+    box-shadow: 6px 6px 7px 0px rgba(143,143,143,1);
+    transition: 200ms linear;
+    border-radius:10px;
+}
+
+.key-benefits-service .single-box:hover {
+    -webkit-box-shadow: 6px 6px 12px 0px rgba(143,143,143,1);
+    -moz-box-shadow: 6px 6px 12px 0px rgba(143,143,143,1);
+    box-shadow: 6px 6px 12px 0px rgba(143,143,143,1);
+
 }
 
 .key-benefits-service .single-box .text-holder {
@@ -122,6 +139,90 @@ hr {
  *  Project Team
  */
 
-.member-container {
-    height: 200px;
+@media only screen and (min-width: 766px) {
+   .member-container {
+        height: 220px;
+    }
+}
+
+.member-details {
+    font-size: 18px !important;
+}
+
+.board-members, .board-members li {
+    list-style: circle !important;
+}
+
+/**
+ * Get Involved
+ */
+.get-involved ul {
+    display: block!important;
+    padding-bottom: 10px;
+}
+
+.get-involved ul li {
+    -webkit-box-shadow: 6px 6px 7px 0px rgba(143,143,143,1);
+    -moz-box-shadow: 6px 6px 7px 0px rgba(143,143,143,1);
+    box-shadow: 6px 6px 7px 0px rgba(143,143,143,1);
+    transition: 200ms linear;
+}
+
+.get-involved ul li:hover {
+    -webkit-box-shadow: 6px 6px 12px 0px rgba(143,143,143,1);
+    -moz-box-shadow: 6px 6px 12px 0px rgba(143,143,143,1);
+    box-shadow: 6px 6px 12px 0px rgba(143,143,143,1);
+}
+
+@media only screen and (min-width: 767px) {
+    .get-involved ul {
+        display: flex!important;
+        justify-content: space-around;
+    }
+
+    .get-involved ul li {
+        max-width: 390px !important;
+        border: 1px solid #e6e6e6 !important;
+        padding: 30px 28px !important;
+        border-radius:10px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .get-involved ul li {
+        max-width: 310px !important;
+    }
+}
+
+/**
+ * Homepage
+ */
+.learning-cycle {
+    float:right;
+    width: 30% !important;
+    top: -50px;
+    position: relative;
+}
+
+@media only screen and (max-width: 1200px) {
+    .learning-cycle {
+        width: 40% !important;
+        position: static;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .learning-cycle {
+        width: 50% !important;
+        top: 0;
+        position:static;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .learning-cycle {
+        width: 100% !important;
+        float: none !important;
+        margin: 0 auto;
+    }
 }
