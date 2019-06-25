@@ -65,7 +65,7 @@ $(document).ready(function() {
 	 * TODO:
 	 * 	Figure out why eventList.json is attempting to be loaded from www.jakewagoner.us/eventList.json rather than proper directory
 	 */
-	$.getJSON("../eventList.json",function(json) {
+	$.getJSON("https://www.jakewagoner.us/IntroCS/eventList.json",function(json) {
 			generateEvents(json.events);
 	}).fail(function( jqxhr, textStatus, error ) {
     	var err = textStatus + ", " + error;
