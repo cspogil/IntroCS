@@ -7,12 +7,10 @@
  * 	python -m SimpleHTTPServer 8000
  * 	navigate to 0.0.0.0:8000 to access hosted site
  *
- * 
  * For computers with python 3 installed:
  * 	python3 -m http.server 8000
  * 	navigate to 0.0.0.0:8000 to access hosted site
  *
- * 
  * For computers with PHP 5.4.0 or higher:
  * 	php -S localhost:8000
  * 	navigate to localhost:8000 to access hosted site
@@ -22,21 +20,21 @@
  * 	python --version
  *  php -v
  *
- *  If either of these work, it will output a version number for reference.
- * 
+ *  If either of these work, it will output a version number for reference
+ *
  * Author: Jake Wagoner
  */
 
 $(document).ready(function() {
 /**
  * Generates the events dynamically using JQuery's append function
- * 
+ *
  * eventList is a pre-parsed JSON object.
  */
-	function generateEvents(eventList) {
-		for (let i = 0; i < eventList.length; i++) {
-			$("#events").append(
-				"<div class='single-box'>" +
+  function generateEvents(eventList) {
+    for (let i = 0; i < eventList.length; i++) {
+      $('#events').append(
+          "<div class='single-box'>" +
 					"<div class='image-holder'>" +
 						"<img src='../images/eventIcons/" + eventList[i].image + "'/>" +
 					"</div>" +

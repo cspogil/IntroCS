@@ -6,7 +6,7 @@ hr {
 }
 
 
-/** 
+/**
  * Owl Carousel Styling
  */
 
@@ -199,12 +199,23 @@ hr {
  */
 .learning-cycle {
     float:right;
-    width: 40% !important;
+    width: 30% !important;
+    top: -50px;
+    position: relative;
+}
+
+@media only screen and (max-width: 1200px) {
+    .learning-cycle {
+        width: 40% !important;
+        position: static;
+    }
 }
 
 @media only screen and (max-width: 991px) {
     .learning-cycle {
         width: 50% !important;
+        top: 0;
+        position:static;
     }
 }
 
@@ -215,10 +226,3 @@ hr {
         margin: 0 auto;
     }
 }
-
-
-
-
-
-
-
