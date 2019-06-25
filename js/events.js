@@ -36,7 +36,7 @@ $(document).ready(function() {
       $('#events').append(
           "<div class='single-box'>" +
 					"<div class='image-holder'>" +
-						"<img src='../images/eventIcons/" + eventList[i].image + "'/>" +
+						"<img src='../IntroCS/images/eventIcons/" + eventList[i].image + "'/>" +
 					"</div>" +
 					"<div class='grid flex-stretch'>" +
 						"<div class='text-holder grid-col-1 grid-row-1'>" +
