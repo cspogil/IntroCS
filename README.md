@@ -15,19 +15,20 @@ About
 Events  (and publications)
 * Add what's happening this summer and what we've done in the past.
   * Summer POGIL workshops, SIGCSE workshops, workshops on-request
-* Events are stored in JSON file read with JS, but Helen can see these in Brackets
+* Events are stored in JSON file (read with JS), so they might not appear if you open the file in a browser, but Helen can see these in Brackets
 
 Resources  (merge with Curriculum)
-* Sample activities, links to collections?
-* Google Group, FaceBook Group, Discussion Group
+* Done: Links to collections
+* Done: Google Group, FaceBook Group, Discussion Group
 * later: Role Cards, CS Process Skills
 
 Project Team
+* Done: Update Clif bio.
 * Add picture and blurb for Sukanya (ask first)
 
 Get Involved
-* Update with latest information on cspogil.org
-* Move content from the old "curriculum" page
+* Done: Update with latest information on cspogil.org
+* Done: Move content from the old "curriculum" page
 
 HTML stuff
 * description of JS code for `<div w3-include-html="content.html"></div>`
