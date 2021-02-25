@@ -14,6 +14,7 @@ About
 Events  (and publications)
 * Add what's happening this summer and what we've done in the past.
 * Summer POGIL workshops, SIGCSE workshops, workshops on-request
+* Helen can see these in Brackets
 
 Resources  (merge with Curriculum)
 * Role Cards, CS Process Skills, Discussion Group

@@ -9,6 +9,71 @@
 	],
 	"events": [
 		{
+			"title": "Workshops Hosted by The POGIL Project",
+			"description": "Multidisciplinary workshops for college faculty and high school teachers",
+			"image": "POGIL.png",
+			"link": "https://pogil.org/workshops-events/workshops",
+			"date": "Upcoming Events"
+		},
+        {
+			"title": "POGIL Activity Writing Workshop",
+			"description": "Four 3-hour sessions (1-4 pm ET) over four days<br>The IntroCS POGIL Project has funding available to cover your registration fees - <a href=\"https://forms.gle/r71zWHxZxhXQkYqS6\">apply here</a>",
+			"image": "POGIL.png",
+			"link": "https://events.pogil.org/event-4125294",
+			"date": "July 26-30, 2021"
+		},
+        {
+			"title": "IntroCS POGIL Cohort 2021",
+			"description": "Cohort members will attend two specific workshops for the IntroCS Cohort (July 14 and July 23),<br>in addition to a Fundamentals of POGIL workshop (July 12-13 or May 17-18)<br> and a POGIL Classroom Facilitation workshop (July 19-22)",
+			"image": "IntroCS.png",
+			"link": "get-involved.html",
+			"date": "July 12-14 and July 19-23, 2021"
+		},
+        {
+			"title": "POGIL Classroom Facilitation Workshop",
+			"description": "Four 3-hour sessions (1-4 pm ET) over four days<br>The IntroCS POGIL Project has funding available to cover your registration fees - <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSc28iRbZDR82172cj0V2sOEITic10s8B54Gnkq7O8SInd9lXw/viewform?usp=sf_link\">apply here</a>",
+			"image": "POGIL.png",
+			"link": "https://events.pogil.org/event-4121913",
+			"date": "July 19-22, 2021"
+		},
+        
+        {
+			"title": "Fundamentals of POGIL Workshop",
+			"description": "Two 3-hour sessions (1-4 pm ET) over two days (May 17-18, July 12-13, August 4-5)<br>The IntroCS POGIL Project has funding available to cover your registration fees - <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSc28iRbZDR82172cj0V2sOEITic10s8B54Gnkq7O8SInd9lXw/viewform?usp=sf_link\">apply here</a>",
+			"image": "POGIL.png",
+			"link": "https://events.pogil.org/event-4053809",
+			"date": "July 12-13, 2021"
+		},
+        {
+			"title": "POGIL Writer's Retreat",
+			"description": "A more advanced retreat with more individual mentoring than the July 26-30 Activity Writing Workshop<br>The IntroCS POGIL Project has funding available to cover your registration fees - <a href=\"https://forms.gle/r71zWHxZxhXQkYqS6\">apply here</a>",
+			"image": "POGIL.png",
+			"link": "https://pogil.org/educators/become-a-pogil-practitioner/advanced-pogil-practitioners/writers-retreat",
+			"date": "July 11-15, 2021"
+		},
+        {
+			"title": "2021 POGIL NCAPP",
+			"description": "The National Conference to Advance POGIL Practice (NCAPP) is a virtual conference<br> for experienced POGIL instructors to develop their skills as a POGIL practitioner and<br> to broaden their participation in the POGIL community",
+			"image": "POGIL.png",
+			"link": "https://pogil.org/ncapp",
+			"date": "June 28-30, 2021"
+		},
+		{
+			"title": "SIGCSE 2021",
+			"description": "March 16, 8-9:45 pm ET: \"Measuring Students' Sense of Belonging in Introductory CS Courses\"<br>March 18, 8-9:45 pm ET: \"Collaborative Learning, Self-Efficacy, and Student Performance in CS1 POGIL\"<br>March 20, 4-6:45 pm ET: \"Improving Online Collaborative Learning with POGIL Practices\"",
+			"image": "SIGCSE2021.png",
+            "link": "https://sigcse2020.sigcse.org/",
+
+			"date": "March 13-20, 2021"
+		},{
+			"title": "SIGCSE 2020",
+			"description": "March 11: IntroCS POGIL 2019 Cohort - Pre-conference Event<br>March 11: POGIL <a href=\"https://sigcse2020.sigcse.org/attendees/workshops.html#guidingstudentstodiscovercsconceptsanddevelopprocessskillsusingpogil\">Workshop</a><br>Virtual POGIL BOF (<a href=\"https://sigcse2020.sigcse.org/online/bofs.html#bof#4apogilincomputerscienceforbeginnersandexperts\">video and supplemental materials</a>)",
+			"image": "SIGCSE2020.png",
+            "link": "https://sigcse2020.sigcse.org/",
+
+			"date": "March 11-14, 2020"
+		},
+        {
 			"title": "POGIL Workshop",
 			"description": "POGIL Workshop at Capital University in Colombus, OH.",
 			"image": "POGIL.png",
@@ -16,25 +81,11 @@
 			"date": "July 22-24, 2019"
 		},
 		{
-			"title": "SIGCSE 2020",
-			"description": "SIGCSE Event being held in Portland, OR.",
-			"image": "SIGCSE2020.png",
-			"link": "https://sigcse2020.sigcse.org/",
-			"date": "March 11-14, 2020"
-		},
-		{
 			"title": "POGIL Workshops on Request",
 			"description": "POGIL Workshops to be scheduled on request.",
 			"image": "POGIL.png",
-			"link": "https://www.pogil.org/workshops-events/workshops",
+			"link": "http://cspogil.org/Intro%2Bto%2BPOGIL%2Bworkshops%2Bon%2Brequest",
 			"date": ""
-		},
-		{
-			"title": "POGIL Workshop July 2020",
-			"description": "POGIL Workshop for July 2020: Location to be announced.",
-			"image": "POGIL.png",
-			"link": "https://www.pogil.org/",
-			"date": "July 2020"
 		}
 	]
 }
