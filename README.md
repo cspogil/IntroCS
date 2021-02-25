@@ -7,6 +7,7 @@ This branch is for staging and testing prior to pushing live to the gh-pages bra
 
 Home
 * Move what is POGIL to the about page
+* fix aspect ratio issues in slideshow
 
 About
 * Maybe move the slideshow here as well?
@@ -26,3 +27,7 @@ Project Team
 Get Involved
 * Update with latest information on cspogil.org
 * Move content from the old "curriculum" page
+
+HTML stuff
+* description of JS code for <div w3-include-html="content.html"></div>
+  https://www.w3schools.com/howto/howto_html_include.asp
