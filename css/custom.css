@@ -9,14 +9,16 @@ hr {
 /**
  * Owl Carousel Styling
  */
-
-.slideshow {
-    margin:auto;
-}
-
+ @media only screen and (min-width: 1200px) {
+    .item img {
+        /* Limit width on large screens */
+        max-width: 50vw;
+    }
+ }
 .item img {
-    max-width: 100%;
-    max-height: 500px;
+    /* Prevent Owl js from changing width */
+    width: 96% !important;
+    margin: 0 auto !important;
 }
 
 
