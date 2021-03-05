@@ -8,6 +8,7 @@ $(document).ready(function(){
 	    items:1,
 	    nav:true,
 	    navText:["<h2><</h2>","<h2>></h2>"], // html accepted in navText
-	    center:true
+	    center:true,
+		autoHeight:true,
 	});
 });
