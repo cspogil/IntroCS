@@ -79,6 +79,13 @@
 			"image": "POGIL.png",
 			"link": "https://events.pogil.org/event-3204703",
 			"date": "July 22-24, 2019"
+		},	
+        {
+			"title": "IntroCS POGIL Workshop Cohort 2018",
+			"description": "IntroCS POGIL Workshop at Capital University in Colombus, OH.",
+        	"image": "IntroCS.png",
+			"link": "get-involved.html",
+			"date": "July 25, 2019"
 		},
 		{
 			"title": "POGIL Workshops on Request",
