@@ -36,7 +36,7 @@ $(document).ready(function() {
       $('#events').append(
           "<div class='single-box'>" +
 					"<div class='image-holder'>" +
-						"<img src='../images/eventIcons/" + eventList[i].image + "'/>" +
+						"<img src='./images/eventIcons/" + eventList[i].image + "'/>" +
 					"</div>" +
 					"<div class='grid flex-stretch'>" +
 						"<div class='text-holder grid-col-1 grid-row-1'>" +
@@ -65,7 +65,7 @@ $(document).ready(function() {
 	 * TODO:
 	 * 	Figure out why eventList.json is attempting to be loaded from www.jakewagoner.us/eventList.json rather than proper directory
 	 */
-	$.getJSON("../eventList.json",function(json) {
+	$.getJSON("./eventList.json",function(json) {
 			generateEvents(json.events);
 	}).fail(function( jqxhr, textStatus, error ) {
     	var err = textStatus + ", " + error;
