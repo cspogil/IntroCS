@@ -33,3 +33,40 @@ Get Involved
 HTML stuff
 * description of JS code for `<div w3-include-html="content.html"></div>`
   * https://www.w3schools.com/howto/howto_html_include.asp
+
+
+## JS that are not used so Helen removed from html pages:
+<!-- Gmap helper -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A"></script>
+<!--Gmap script-->
+	<script src="js/gmaps.js"-->
+	</script-->
+	<script src="js/map-helper.js">
+	</script>
+    
+<!-- jQuery timepicker js -->
+	<script src="assets/timepicker/timePicker.js">
+	</script> 
+<!-- Bootstrap select picker js -->
+	<script src="assets/bootstrap-sl-1.12.1/bootstrap-select.js">
+	</script> 
+<!-- html5lightbox js -->
+	<script src="assets/html5lightbox/html5lightbox.js">
+	</script>
+<!--Particles -->
+	<script src="js/particles.min.js">
+	</script-->
+<!-- thm custom script -->
+	<script src="js/particles-config.js">
+	</script>
+	<script src="js/custom.js">
+	</script>
+    
+Removed from all except index.html:
+<!-- owl carousel -->
+	<script src="js/owl.js">
+	</script> 
+    
+## unused custom scripts
+<script src="js/particles-config.js"></script>
+<script src="js/custom.js"></script>
