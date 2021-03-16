@@ -6,11 +6,11 @@ This branch is for staging and testing prior to pushing live to the gh-pages bra
 ## TODO
 
 Home
-* Move 'What is POGIL' to the About page
-* fix aspect ratio issues in slideshow
+* Move 'What is POGIL' to the About page - decided against
+* fix aspect ratio issues in slideshow - done
 
 About
-* Maybe move the slideshow here as well?
+* Added most important publications here instead
 
 Events  (and publications)
 * Add what's happening this summer and what we've done in the past.
@@ -24,7 +24,7 @@ Resources  (merge with Curriculum)
 
 Project Team
 * Done: Update Clif bio.
-* Add picture and blurb for Sukanya (ask first)
+* Add picture and blurb for Sukanya - done
 
 Get Involved
 * Done: Update with latest information on cspogil.org
